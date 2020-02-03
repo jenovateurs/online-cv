@@ -3,60 +3,52 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Jérémy PASTOURET
+    tagline: Entrepreneur, auteur et développeur.
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: jeremy.pastouret@gmail.com
+    phone: 06 98 86 38 41
+    website: les-enovateurs.com #do not add http://
+    linkedin: jérémy-pastouret-339a0939
+    github: jenovateurs
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Français
+        level: Maternel
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Anglais
+        level: Professionnel
 
     interests:
-      - item: Climbing
+      - item: Technologies
         link:
 
-      - item: Snowboarding
+      - item: Photographie
+        link: 
+
+      - item: Partage de connaissances
         link:
 
-      - item: Cooking
-        link:
+#career-profile:
+#    title: 
+#    summary:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master - Informatique - Ingénierie du Logiciel
+      university: CERI université d'Avignon
+      time: 2012 - 2015
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -65,9 +57,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: DUT - Informatique - Spécialité imagerie numérique
+      university: IUT d'Arles
+      time: 2010 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,113 +69,97 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    #- role: Auteur de livre
+    #  time: 2020 - Present
+    #  company: Editions ENI
+    #  details: |
+    #    Phalcon - Développez des applications web complexes et performantes en PHP |
+    #    
+    #    Ce livre sur le framework Phalcon donne les connaissances nécessaires pour développer des applications Web et des API performantes. 
+    #    Cet ouvrage de 850 pages s'adresse aux développeur débutant, Lead-developer et aux DevOps souhaitant créer une application Web rapide.
+    #  #image: livre1.jpg
+    
+    - role: Lead-Developer et Développeur Web
+      time: 2018 - 2019
+      company: Circulariz
+      details: "|
+        Plateforme Web d'échange entre les commissaires aux comptes et les tiers (Banques, Fournisseurs, Client). Le commissaire aux comptes a besoin de  avec ces tiers. 
+        Circulariz permet d'importer des écritures et de contacter les tiers. Objectif : vérifier les entrées/sorties d'une société, obtenir des justificatifs et vérifier les montants."
+
+    - role: Lead-Developer et Développeur Web
+      time: 2014 - 2019
+      company: Gest On Line
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+        Développement d'une solution SAAS nommée Dream Audit - un service Web qui accompagne les commissaires aux comptes dans l'ensemble de leurs missions.
+        Cette application est développée en anglais et en français. Elle contient des questionnaires, des tableaux de bord et toutes sortes de données à saisir sous différentes formes.
+    
+    - role: Expériences courtes
       time: 2012 - 2014
-      company: Amazon, London
+      company: 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Développement de divers outils Web utilisés en interne, principalement pour de la gestion de données par coeur de métier (Laboratoire d'Astrophysique de Marseille / Météo France / Gest On Line).
+
+#Une première application Web de recherche/récupération/analyse de données concernant les astéroïdes.|
+
+#Une second application Web pour les prévisionnistes qui ont besoin de faire des recherches/analyse et de la gestion de situation météorologiques.|
+
+#Une troisième application logiciel pour gérer la base de connaissance des commissaires aux comptes (questionnaires, feuilles excel, ...).|
+
+#Une quatrième application Web pour gérer des messages d'information et astuces du logiciel RevisAudit pour les commissaires aux comptes.
+
 projects:
-    title: Projects
+    title: Projets
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Les Enovateurs
+        link: "https://les-enovateurs.com/"
+        tagline: "Rédaction d'articles consacrés aux nouvelles technologies et au développement durable, depuis 2016"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Phalcon PHP
+        link: "https://github.com/orgs/phalcon/people"
+        tagline: "Membre de l'équipe et contributeur officiel de Phalcon"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Unlock My Data
+        link: "https://unlock-my-data.com/"
+        tagline: "Outil de récupération / suppression des données privées auprès des entreprises, grâce au RGPD"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: eNovaBus
+        link: "https://enovabus.les-enovateurs.com/"
+        tagline: "Application Android d'affichage des horaires de bus"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: PUBLICATIONS
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Phalcon - Développez des applications web complexes et performantes en PHP
+        description: |
+          Ce livre sur le framework Phalcon apporte les connaissances nécessaires pour développer des applications Web et des API performantes. 
+          Cet ouvrage de 850 pages s'adresse aux développeurs débutants, aux Lead-developers et aux DevOps souhaitant créer une application Web.
+        publication: Editions ENI - Janvier 2020
+        link: "https://bit.ly/2GbgxN6"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Phalcon
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: PHP
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Docker
+        level: 70%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Android
+        level: 65%
+
+      - name: Html / Css / JQuery
+        level: 90%
+
+      - name: PostgreSQL
+        level: 85%
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+site:
+  analytics: False

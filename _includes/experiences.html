@@ -2,11 +2,8 @@
 {% if experiences %}
 <section class="section experiences-section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    Experiences
+    <img width="30px" src="{{ site.baseurl }}/assets/images/fontawesome/exp.png">
+    <span class="top">Experiences</span>
   </h2>
 
   {% for experience in experiences %}
@@ -27,6 +24,10 @@
     <div class="details">
       {{ experience.details | markdownify }}
     </div><!--//details-->
+    {% endif %}
+
+    {% if experience.image %}
+      <img src="{{ site.baseurl }}/assets/images/{{ experience.image }}" alt="banniere {{ experience.role }}" />
     {% endif %}
 
   </div><!--//item-->
