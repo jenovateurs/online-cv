@@ -78,17 +78,35 @@ experiences:
     #    Ce livre sur le framework Phalcon donne les connaissances nécessaires pour développer des applications Web et des API performantes. 
     #    Cet ouvrage de 850 pages s'adresse aux développeur débutant, Lead-developer et aux DevOps souhaitant créer une application Web rapide.
     #  #image: livre1.jpg
-    
+
+    - role: Fondateur
+      time: 2019 - Aujourd'hui
+      company: Garwen
+      link: "https://garwen.fr/"
+      details: "|
+        La 1ère plateforme Web de gestion du matériel / des équipements pour les particuliers et les entreprises.
+        Récupération des factures, gestion des garanties, suivi SAV et fiches d'aide."
+
     - role: Lead-Developer et Développeur Web - Circulariz
       time: 2018 - 2019
       company: Gest On Line
+      link: "https://circulariz.com"
       details: "|
         Plateforme Web d'échange entre les commissaires aux comptes et les tiers (Banques, Fournisseurs, Client). Le commissaire aux comptes a besoin de  avec ces tiers. 
         Circulariz permet d'importer des écritures et de contacter les tiers. Objectif : vérifier les entrées/sorties d'une société, obtenir des justificatifs et vérifier les montants."
 
+    - role: Fondateur
+      time: 2018 - Aujourd'hui
+      company: Unlock My Data
+      link: "https://unlock-my-data.com/"
+      details: "|
+        Catalogue Web contenant des analyses RGPD d'entreprises (données collectées, permissions utilisées dans les applications...). 
+        La plateforme permet aussi aux particuliers de récupérer / supprimer leurs données personnelles auprès des entreprises, grâce au RGPD."
+
     - role: Lead-Developer et Développeur Web - DreamAudit
       time: 2014 - 2019
       company: Gest On Line
+      link: "https://www.gestonline.com/"
       details: |
         Développement d'une solution SAAS nommée DreamAudit - un service Web qui accompagne les commissaires aux comptes dans l'ensemble de leurs missions.
         Cette application est développée en anglais et en français. Elle contient des questionnaires, des tableaux de bord et toutes sortes de données à saisir sous différentes formes.
@@ -112,21 +130,13 @@ projects:
     intro: >
     assignments:
 
-      - title: Garwen
-        link: "https://garwen.fr/"
-        tagline: "La  1ère plateforme  Web  de  gestion  du  matériel  pour  les  particuliers  et  les entreprises"
-
       - title: Les Enovateurs
         link: "https://les-enovateurs.com/"
         tagline: "Rédaction d'articles consacrés aux nouvelles technologies et au développement durable, depuis 2016"
 
       - title: Phalcon PHP
         link: "https://github.com/orgs/phalcon/people"
-        tagline: "Membre de l'équipe et contributeur officiel de Phalcon"
-
-      - title: Unlock My Data
-        link: "https://unlock-my-data.com/"
-        tagline: "Outil de récupération / suppression des données privées auprès des entreprises, grâce au RGPD"
+        tagline: "Membre de l'équipe principale (core team) du framework PHP - Phalcon"
 
 #      - title: eNovaBus
 #        link: "https://enovabus.les-enovateurs.com/"
@@ -135,6 +145,20 @@ projects:
 publications:
     title: PUBLICATIONS
     papers:
+
+      - title: Phalcon - un framework performant et robuste compilé en C
+        description: |
+          Un article présentant les avantages et inconvénients de ce framework.
+          Prochainement republié par le magazine allemand PHP Magazin EntWickler.
+        publication: Magazine Programmez - Juin 2020
+        link: "https://bit.ly/30eA75l"
+
+      - title: Les 10 commandements de l’écoconception
+        description: |
+          Article consacré aux principes de l'écoconception, l'optimisation de resources...
+        publication: Magazine Programmez - Mars 2020
+        link: "https://bit.ly/3icYvdS"
+        
       - title: Phalcon - Développez des applications web complexes et performantes en PHP
         description: |
           Ce livre sur le framework Phalcon apporte les connaissances nécessaires pour développer des applications Web et des API performantes. 
@@ -155,14 +179,14 @@ skills:
       - name: Docker
         level: 70%
 
-      - name: Android
-        level: 65%
-
       - name: Html / Css / JQuery
         level: 90%
 
-      - name: PostgreSQL
+      - name: PostgreSQL / MySQL
         level: 85%
+      
+      - name: Amazon Web Services
+        level: 60%
 
 #footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
